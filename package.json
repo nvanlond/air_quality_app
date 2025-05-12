@@ -1,0 +1,27 @@
+{
+  "name": "air_quality_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e '*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvanlond/air_quality_app.git"
+  },
+  "author": "Niels van Londen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvanlond/air_quality_app/issues"
+  },
+  "homepage": "https://github.com/nvanlond/air_quality_app#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
