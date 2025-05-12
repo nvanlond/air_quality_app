@@ -13,6 +13,10 @@ const supabaseURL = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = supabaseClient.createClient(supabaseURL, supabaseKey);
 
+app.get('/', (req, res) => {
+    res.sendFile('public/air_quality_app.html', { root: __dirname });
+})
+
 app.get('/air_quality_data', async (req, res) => {
   console.log("attempting to get air_quality_data");
   const { data, error } = await supabase.from('air_quality_data').select();
