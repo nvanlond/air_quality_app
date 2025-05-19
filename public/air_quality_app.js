@@ -87,6 +87,8 @@ function formatDate(dateStr) {
 async function createAQChart(url) {
     const response = await fetch(url);
     const data = await response.json();
+    console.log("Fetched chart data:", data);
+
 
     const labels = data.map(item =>
         new Date(item.timestamp).toLocaleDateString('en-US', { year: 'numeric', month: 'short' })
