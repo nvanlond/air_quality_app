@@ -1,0 +1,181 @@
+body {
+  background-color: #bcdbe1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#main-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  transition: all 0.5s;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding: 1ch 2ch;
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px hsl(0, 0%, 90%), 4px 4px 0px hsl(0, 0%, 80%),
+    6px 6px 0px hsl(0, 0%, 70%), 8px 8px 0px hsl(0, 0%, 60%),
+    10px 10px 0px hsl(0, 0%, 50%), 12px 12px 0px hsl(0, 0%, 40%),
+    14px 14px 0px hsl(0, 0%, 30%), 16px 16px 0px hsl(0, 0%, 20%),
+    18px 18px 0px hsl(0, 0%, 10%);
+}
+/* 
+nav button {
+  transition: all 0.5s;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  padding: 1ch 2ch;
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px hsl(0, 0%, 90%), 4px 4px 0px hsl(0, 0%, 80%),
+    6px 6px 0px hsl(0, 0%, 70%), 8px 8px 0px hsl(0, 0%, 60%),
+    10px 10px 0px hsl(0, 0%, 50%), 12px 12px 0px hsl(0, 0%, 40%),
+    14px 14px 0px hsl(0, 0%, 30%), 16px 16px 0px hsl(0, 0%, 20%),
+    18px 18px 0px hsl(0, 0%, 10%);
+} */
+
+button:hover {
+  background-color: hsl(0, 0%, 50%);
+  color: #fff;
+  box-shadow: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 6rem;
+}
+
+.buttons a {
+  flex: 1 1 30%;
+  text-align: center;
+}
+
+.buttons button {
+  width: 100%;
+  font-size: 20px;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+canvas {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.headfoot {
+  text-align: left;
+  color: black;
+  background-color: white;
+  padding: 20px 40px;
+  margin: 20px;
+  border: 2px solid black;
+  clear: both;
+}
+
+#main-nav {
+  text-align: right;
+  padding: 5px;
+  margin: 20px;
+}
+
+#main-nav li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.content-area {
+  width: 60%;
+  float: left;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.content-area ul {
+  list-style-type: none;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}   
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid black; 
+}
+.main-container {
+  background-color: white;
+  overflow: hidden;
+  padding: 20px 40px;
+  margin: 20px;
+  position: relative;
+  border: 2px solid black;
+}
+
+.main-container ul li {
+    margin-bottom: 1rem;
+}
+
+.contact {
+  background-color: rgb(81, 0, 255);
+  color: white;
+}
+
+.contact:hover {
+  background-color: rgb(172, 0, 172);
+}
+
+.linkedin-logo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 50%;
+}
+
+#slider-date {
+    width: 15%;
+    margin: 1rem 1rem;
+}
