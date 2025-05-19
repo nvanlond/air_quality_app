@@ -66,7 +66,9 @@ Expects JSON body containing:
 - Comments are case-sensitive ("New York" will return different comments from "new york")
 - Chart will fail if no data is received with no feedback
 - Comments table may duplicate upon double click of "Get PM2.5 Data"
-- Spam Clicking "Get PM2.5 Data" slows down performance with excessive API calls. 
+- Spam Clicking "Get PM2.5 Data" slows down performance with excessive API calls
+- No ability to create account so username doesnt really mean anything
+- Research user more datapoints and sensors for aq data
 
 ## Road Map for Future Development
 - Add ability to fetch other air quality indicators besides PM2.5 Level
